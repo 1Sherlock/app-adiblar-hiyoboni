@@ -1,0 +1,24 @@
+/**
+ * Created by Sherlock on 23.04.2022.
+ */
+ 
+.navbar{
+  padding: 30px 77px;
+  background-color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+
+  ul{
+    li{
+      a{
+        color: #787272;
+        font-size: 18px;
+
+        &:hover, &.active{
+          color: #000000;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+/**
+ * Created by Sherlock on 23.04.2022.
+ */
+ 
+.header{
+  background-image: url("/assets/images/header.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 104px 0 232px 0;
+  position: relative;
+
+  h2{
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 60px;
+    color: #ffffff;
+    margin-bottom: 43px;
+    position: relative;
+    z-index: 1;
+  }
+
+  p{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 41px;
+    color: #ffffff;
+    margin-bottom: 16px;
+    position: relative;
+    z-index: 1;
+  }
+
+
+  .layer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.4);
+  }
+}

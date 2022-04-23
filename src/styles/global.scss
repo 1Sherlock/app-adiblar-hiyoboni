@@ -1,0 +1,123 @@
+/**
+ * Created by Sherlock on 23.04.2022.
+ */
+ 
+@font-face {
+  font-family: "Mak-Bold";
+  src: url("/assets/fonts/mak/mak-bold.otf") format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter-Regular";
+  src: url("/assets/fonts/inter/Inter-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter-Medium";
+  src: url("/assets/fonts/inter/Inter-Medium.ttf") format("truetype");
+  font-display: swap;
+}
+
+.font-mak-bold{
+  font-family: "Mak-Bold", sans-serif;
+}
+
+.font-inter-regular{
+  font-family: "Inter-Regular", sans-serif;
+}
+
+.font-inter-medium{
+  font-family: "Inter-Medium", sans-serif;
+}
+
+html{
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: "Inter-Regular", sans-serif;
+}
+
+.video{
+  height: 500px;
+  margin: 120px 0;
+}
+
+.adiblar-info{
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 42px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.adiblar-desc{
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 120px;
+}
+
+.map{
+  height: 400px;
+  margin-bottom: 190px;
+}
+
+.icon{
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: sub;
+
+  mask-size: 100% 100%;
+  mask-repeat: no-repeat;
+  mask-position: center;
+
+  -webkit-mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+
+  &-facebook{
+    mask-image: url("/assets/icons/facebook.svg");
+    -webkit-mask-image: url("/assets/icons/facebook.svg");
+  }
+  &-instagram{
+    mask-image: url("/assets/icons/instagram.svg");
+    -webkit-mask-image: url("/assets/icons/instagram.svg");
+  }
+  &-location{
+    mask-image: url("/assets/icons/location.svg");
+    -webkit-mask-image: url("/assets/icons/location.svg");
+  }
+  &-mail{
+    mask-image: url("/assets/icons/mail.svg");
+    -webkit-mask-image: url("/assets/icons/mail.svg");
+  }
+  &-menu{
+    mask-image: url("/assets/icons/menu.svg");
+    -webkit-mask-image: url("/assets/icons/menu.svg");
+  }
+  &-quloq{
+    mask-image: url("/assets/icons/quloq.svg");
+    -webkit-mask-image: url("/assets/icons/quloq.svg");
+  }
+  &-telegram{
+    mask-image: url("/assets/icons/telegram.svg");
+    -webkit-mask-image: url("/assets/icons/telegram.svg");
+  }
+  &-twitter{
+    mask-image: url("/assets/icons/twitter.svg");
+    -webkit-mask-image: url("/assets/icons/twitter.svg");
+  }
+  &-heart{
+    mask-image: url("/assets/icons/heart.svg");
+    -webkit-mask-image: url("/assets/icons/heart.svg");
+  }
+}
